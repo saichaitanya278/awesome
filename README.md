@@ -100,7 +100,14 @@ sudo cp -v 90-backlight.rules  /usr/lib/udev/rules.d/90-backlight.rules
 sudo usermod -a -G video $LOGNAME
 ```
 
-### 6) Read the documentation
+### 6) picom transparency
+```
+mkdir .config/picom
+cp -v .config/awesome/picom.conf .config/picom/
+```
+
+
+### 7) Read the documentation
 
 The documentation live within the source code.
 
