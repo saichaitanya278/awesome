@@ -92,7 +92,7 @@ QT_QPA_PLATFORMTHEME=qt5ct
 
 The first variable fixes most indicators (especially electron based ones!), the second tells Qt and KDE applications to use your gtk2 theme set through lxappearance.
 
-###5) For Screen brightness 
+### 5) For Screen brightness 
 ```
 git clone https://github.com/haikarainen/light
 cd light
