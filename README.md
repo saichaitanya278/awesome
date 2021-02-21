@@ -51,12 +51,12 @@ paru -S awesome rofi picom i3lock-fancy xclip ttf-roboto polkit-gnome materia-th
 
 Arch-Based Installs
 ```
-git clone https://gitlab.com/saichaitanya278/dotfiles/-/tree/master/.config/awesome ~/.config/awesome
+git clone https://github.com/saichaitanya278/awesome.git ~/.config/awesome
 ```
 
 Debian-Based Installs
 ```
-git clone --branch debian https://gitlab.com/saichaitanya278/dotfiles/-/tree/master/.config/awesome ~/.config/awesome
+git clone --branch debian https://github.com/saichaitanya278/awesome.git ~/.config/awesome
 ```
 
 ### 3) Set the themes
