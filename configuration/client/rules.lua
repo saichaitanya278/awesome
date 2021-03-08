@@ -2,6 +2,11 @@ local awful = require('awful')
 local gears = require('gears')
 local client_keys = require('configuration.client.keys')
 local client_buttons = require('configuration.client.buttons')
+local awful = require('awful')
+local gears = require('gears')
+local icons = require('theme.icons')
+local apps = require('configuration.apps')
+
 
 -- Rules
 awful.rules.rules = {
@@ -29,6 +34,8 @@ awful.rules.rules = {
     rule_any = {name = {'QuakeTerminal'}},
     properties = {skip_decoration = true}
   },
+
+
   -- Titlebars
   {
     rule_any = {type = {'dialog'}, class = {'Wicd-client.py', 'calendar.google.com'}},
