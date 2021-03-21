@@ -1,3 +1,4 @@
+
 local gears = require('gears')
 local awful = require('awful')
 local wibox = require("wibox")
@@ -77,7 +78,6 @@ awful.util.spawn_with_shell("picom &")
 awful.util.spawn_with_shell("feh --bg-scale /mnt/D/PHOTOS/wp4198956-mgaming-wallpapers.jpg &")
 awful.util.spawn_with_shell("pnmixer &")
 awful.util.spawn_with_shell("xfce4-clipman &")
-awful.util.spawn("sudo /opt/'Ryzen Controller'/ryzen-controller --no-sandbox &")
 awful.util.spawn("wmctrl -r 'Telegram' -t 2 &")
-awful.util.spawn_with_shell("telgram-desktop &")
+awful.util.spawn_with_shell("telegram-desktop &")
 

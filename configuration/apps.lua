@@ -12,9 +12,9 @@ return {
     rofi = rofi_command,
     lock = 'i3lock-fancy',
     quake = 'terminator',
-    screenshot = 'flameshot screen -p ~/Pictures',
-    region_screenshot = 'flameshot gui -p ~/Pictures',
-    delayed_screenshot = 'flameshot screen -p ~/Pictures -d 5000',
+    screenshot = 'flameshot screen -p /mnt/D/PHOTOS',
+    region_screenshot = 'flameshot gui -p /mnt/D/PHOTOS',
+    delayed_screenshot = 'flameshot screen -p /mnt/D/PHOTOS -d 5000',
     browser = 'brave',
     editor = 'gedit', -- gui text editor
     social = 'telegram-desktop',
