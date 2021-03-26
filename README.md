@@ -103,7 +103,7 @@ sudo usermod -a -G video $LOGNAME
 ### 6) picom transparency
 ```
 mkdir .config/picom
-cp -v .config/awesome/picom.conf .config/picom/
+cp -v .config/awesome/configuration/picom.conf .config/picom/
 ```
 
 
